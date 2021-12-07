@@ -1,12 +1,23 @@
-main {
-    background-color: aquamarine;
-}
-header {
-    background-color: cadetblue;
-}
-body {
-    background-color: darkcyan;
-}
-nav {
-    background-color: deepskyblue;
-}
+a {text-decoration: none; color: aliceblue;}
+
+.matekizek {border: aqua; text-align: left;}
+
+main {margin:auto;}
+
+body {margin: auto;}
+article {margin: auto; max-width: 900px;}
+
+.nav-item {margin: auto;}
+
+ul {list-style: none;}
+li {
+    float: left;
+    text-decoration: none;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+  }
